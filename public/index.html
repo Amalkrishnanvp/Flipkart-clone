@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipkart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container max-w-full xl:mx-auto">
+        <nav>
+            <div class="flex items-center flex-row pt-5 pb-6 pl-4 pr-8 justify-evenly xl:justify-around">
+                <div class="logo pr-1">
+                    <img class="w-40 h-10 object-cover" src="/Projects/Flipkart/images/fkheaderlogo_plus-055f80.svg">
+                </div>
+                <div class="search-bar w-1/3 flex items-center justify-between 2xl:w-5/12 pl-7">
+                    <div class="search-icon flex-1 h-100 pb-2 pt-2 pl-4 pr-3 rounded-l-md cursor-pointer">
+                        <i class="fa-solid fa-magnifying-glass text-stone-500 text-xl"></i>
+                    </div>
+                    <input
+                        class="search-input w-11/12 text-black placeholder-gray-500 pt-2 pb-2 placeholder:text-lg rounded-r-md focus:outline-none placeholder:"
+                        type="text" placeholder="Search for Products, Brands and More">
+                </div>
+                <div class="user-profile flex cursor-pointer pl-6">
+                    <div class="user-logo text-xl mr-2"><i class="fa-regular fa-circle-user"></i></div>
+                    <p class="text-center">Amal krishnan v p</p>
+                    <select class="cursor-pointer pr-2">
+                        <option></option>
+                    </select>
+                </div>
+                <div class="cart flex items-center cursor-pointer pl-6">
+                    <div class="cart-logo text-xl"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <div class="cart-name ml-3 hidden xl:block">Cart</div>
+                </div>
+                <div class="seller flex items-center cursor-pointer pl-6">
+                    <div class="seller-icon text-lg mr-3"><i class="fa-solid fa-store"></i></div>
+                    <div class="seller-text hidden xl:block">Become a Seller</div>
+                </div>
+                <div class="dropdown cursor-pointer pl-8"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+        </nav>
+
+        <div>
+
+
+            <main class="pt-2 pr-4 pl-4">
+                <section class="overflow-auto">
+                    <div class="bg-white flex h-36 justify-evenly text-center 2xl:pr-32 2xl:pl-32">
+                        <div class="p-4 cursor-pointer">
+                            <img class="w-16" src="/Projects/Flipkart/images/image1.webp">
+                            <p class="font-semibold text-sm mt-3 w-16">Grocery</p>
+                        </div>
+                        <div class="p-4 cursor-pointer">
+                            <img class="w-16" src="/Projects/Flipkart/images/image2.webp">
+                            <p class="font-semibold text-sm mt-3 w-16">Mobiles</p>
+                        </div>
+                        <div class="p-4 hover:text-blue-700">
+                            <img class="w-16" src="/Projects/Flipkart/images/img9.webp">
+                            <div class="flex mt-3">
+                                <p class="font-semibold text-sm">Fashion</p>
+                                <select>
+                                    <option></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="p-4 hover:text-blue-700">
+                            <img class="w-16" src="/Projects/Flipkart/images/img5.webp">
+                            <div class="flex mt-3">
+                                <p class="font-semibold text-sm">Electronics</p>
+                                <select>
+                                    <option></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="p-4 cursor-pointer">
+                            <img class="w-16" src="/Projects/Flipkart/images/img3.webp">
+                            <p class="font-semibold text-sm mt-3">Appliances</p>
+                        </div>
+                        <div class="p-4 cursor-pointer">
+                            <img class="w-16" src="/Projects/Flipkart/images/img4.webp">
+                            <p class="font-semibold text-sm mt-3 w-16">Travel</p>
+                        </div>
+                        <div class="p-4 hover:text-blue-700">
+                            <img class="w-16" src="/Projects/Flipkart/images/img6.webp">
+                            <div class="flex">
+                                <p class="font-semibold text-sm mt-3">Home & <br> Furniture</p>
+                                <select>
+                                    <option></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="p-4 hover:text-blue-700">
+                            <img class="w-16" src="/Projects/Flipkart/images/img7.webp">
+                            <div class="flex">
+                                <p class="font-semibold text-sm mt-3">Beauty, Toys & <br> More</p>
+                                <select>
+                                    <option></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="p-4 hover:text-blue-700">
+                            <img class="w-16" src="/Projects/Flipkart/images/img8.webp">
+                            <div class="flex">
+                                <p class="font-semibold text-sm mt-3">Two <br> wheelers</p>
+                                <select>
+                                    <option></option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
